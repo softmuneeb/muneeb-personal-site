@@ -7,68 +7,157 @@
     <style>
       body {
         font-family: Arial, sans-serif;
-        margin: 0;
+        line-height: 1.6;
         padding: 20px;
-      }
-      .container {
         max-width: 800px;
         margin: 0 auto;
       }
-      h1,
-      h2,
-      h3 {
-        color: #333;
+
+      .header {
+        text-align: center;
       }
-      ul {
+
+      .contact {
         list-style-type: none;
         padding: 0;
+        text-align: center;
       }
-      ul li {
-        margin-bottom: 10px;
+
+      .contact li {
+        display: inline;
+        margin: 0 10px;
       }
-      a {
+
+      .contact a {
+        color: #1b73e8;
         text-decoration: none;
-        color: #007bff;
+      }
+
+      .experience {
+        margin-bottom: 20px;
+      }
+
+      .project {
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+
+      .project a {
+        color: #1b73e8;
+        text-decoration: none;
       }
     </style>
   </head>
+
   <body>
-    <div class="container">
+    <div class="header">
       <h1>Muneeb Zubair Khan</h1>
-      <p>Blockchain Team Lead</p>
-      <p>softmuneeb@gmail.com | +923014440289</p>
-      <p>
-        <a href="https://www.linkedin.com/in/softmuneeb">LinkedIn</a> |
-        <a href="https://github.com/softmuneeb">GitHub</a>
-      </p>
-
-      <h2>Work Experience</h2>
-      <p><strong>Blockchain Team Lead</strong> - Soft Block LLC (January 2020 - Present, Lahore, Pakistan)</p>
-      <ul>
-        <li>Managed multiple stakeholders including Investors, Designers, Developers for mycharacter.ai project</li>
-        <li>Implemented NFT Smart Contract in Solidity for Cheeky Lion Club.</li>
-        <li>Facilitated the launch of Gandalf Town where 10,000 NFTs were sold in just one hour.</li>
-        <li>Developed, tested, and deployed NodeJs APIs for the LAZI Decentralized Social Media App.</li>
-        <li>Created Locker Smart Contract for Shield Launchpad.</li>
-        <li>Raised $2 Million in 10 days for a client from a Smart Contract (11/2021 - 12/2021).</li>
-        <!-- Add more work experience details as needed -->
+      <ul class="contact">
+        <li>+923348438939</li>
+        <li><a href="mailto:softmuneeb@gmail.com">softmuneeb@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/softmuneeb">LinkedIn</a></li>
+        <li><a href="https://www.github.com/softmuneeb">GitHub</a></li>
+        <li>Personal Website: <a href="https://muneeb.us">muneeb.us</a></li>
       </ul>
+    </div>
 
+    <div class="experience">
+      <h2>Professional Experience</h2>
+
+      <div class="job">
+        <h3>Soft Block | Johar Town Lahore | Blockchain Team Lead</h3>
+        <p>(Oct 2021 - Oct 2023) (Present Job)</p>
+        <div class="project">
+          <h4>Project Domain Name Selling Bot with Many Other Services:</h4>
+          <ul>
+            <li>
+              <a href="https://github.com/softmuneeb/tg-bot-link-shorten">github.com/softmuneeb/tg-bot-link-shorten</a>
+            </li>
+            <li>Website: <a href="https://nomadlybot.com/">nomadlybot.com</a></li>
+            <li>Feature 1: User can buy subscription. Made with Node.js, payment APIs for bank and crypto.</li>
+            <li>Feature 2: User can buy domain names. Made with Node.js, MongoDB, Telegram SDK.</li>
+            <li>
+              Feature 3: User can shorten links with their bought domain names. Made with Node.js, dynamic DNS
+              configurations, DevOps
+            </li>
+            <li>Tech Used: AWS, Node.js, Telegram SDK and more</li>
+          </ul>
+        </div>
+        <div class="project">
+          <h4>Project Character GPT NFT:</h4>
+          <ul>
+            <li><a href="https://github.com/Alethea-tech">github.com/Alethea-tech</a></li>
+            <li>Website: <a href="https://mycharacter.ai">mycharacter.ai</a></li>
+            <li>Youtube: <a href="https://www.youtube.com/watch?v=6M409htSdac">Video Intro</a></li>
+            <li>Feature 1: Users can create their own NFTs based on a prompt. Made with Python, PyTorch, Django.</li>
+            <li>Feature 2: Created NFTs are minted on blockchain. Node.js, core web3 APIs.</li>
+            <li>Feature 3: Users can transfer and sell NFTs. Made in Solidity ERC721.</li>
+            <li>Tech Used: AWS, Python, Node.js and more</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job">
+        <h3>The Hash | Johar Town Lahore | Blockchain Developer</h3>
+        <p>(Nov 2020 - Oct 2021)</p>
+        <div class="project">
+          <h4>Project Penguins NFT Ecosystem:</h4>
+          <ul>
+            <li>
+              Github Link
+              <a
+                href="https://github.com/softmuneeb/soliditysc/blob/multi-merkle-nft-with-standard-os/contracts/Nft.sol"
+                >https://github.com/softmuneeb/soliditysc</a
+              >
+            </li>
+            <li>
+              Feature 1: Users can hold their NFTs for the long term to get rewards in igloo tokens. It's built in
+              Solidity, a language to code the backend in blockchain (Ethereum based) and ERC20 and ERC721 standards
+              with custom business logic.
+            </li>
+            <li>
+              Feature 2: Users can merge their 2 NFTs into one NFT that will have qualities of both NFTs. Built with
+              React, image merging libraries, base64 to Image conversion, saving the metadata and image data on the
+              server for the admin.
+            </li>
+            <li>
+              Feature 3: Users can get free NFT airdrop of fish NFT who bought penguin NFTs. Built with Solidity for
+              backend and frontend in React.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="certifications">
+      <h2>Certifications</h2>
+      <ul>
+        <li>
+          Cloud Computing (AWS Cloud Practitioner) - 3 projects
+          <a href="https://www.credly.com/badges/278d2497-0901-4df5-a3d8-734be7aa76ac">Certification Link</a>
+        </li>
+        <li>
+          Programming JavaScript - 4 projects
+          <a href="https://www.hackerrank.com/certificates/3d56fdec4def">Certification Link</a>
+        </li>
+        <li>
+          Blockchain - 3 projects
+          <a href="https://www.udemy.com/certificate/UC-735fc3f3-ff18-434f-a755-bbebec7e75d1/">Certification Link</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="education">
       <h2>Education</h2>
-      <p><strong>BS Computer Science</strong> - Fast NUCES Lahore (Awarded Deans List) (2017-2021)</p>
+      <p>
+        (2017 - 2021) Bachelor in Computer Science with Deans List Award
+        <a href="https://www.nu.edu.pk/Campus/Lahore/DeanLists">Deans List Award Link</a>
+      </p>
+    </div>
 
-      <h2>Skills</h2>
-      <p>Solidity, JavaScript, Python, Golang</p>
-      <p>React, NodeJs, NestJs, Truffle, Django</p>
-      <p>Web3, Redux, Mongoose, Express, Chai</p>
-
-      <h2>Certificates</h2>
-      <ul>
-        <li>AWS Cloud Pactioner (7/2023 - 9/2023)</li>
-        <li>Ethereum and Solidity - The Complete Developer's Guide, Udemy (11/2020 - 12/2020)</li>
-        <li>Solana Blockchain Developer Bootcamp with Rust + JavaScript, Udemy (07/2021 - 08/2021)</li>
-        <li>React - The Complete Guide 2023 (incl. React Router & Redux), Udemy (01/2021 - 02/2021)</li>
-      </ul>
+    <div class="hobbies">
+      <h2>Hobbies</h2>
+      <p>Making personal software projects, learning and teaching about new technologies</p>
     </div>
   </body>
 </html>
